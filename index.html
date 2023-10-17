@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- Metadados, como o autor, descrição e palavras-chave para SEO -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Kayque">
+    <meta name="description" content="Fan Page The Office">
+    <meta name="keywords" content="The Office, Michael Scott">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css"> <!-- Link para o arquivo CSS externo -->
+    <meta property="og:title" content="Fan Page The Office">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title>The Office Landing Page</title>
+</head>
+<body>
+
+    <!-- Cabeçalho da página com título e subtitulo -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top p-md-3">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#descriptionref">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#charactersref">Characters</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#review-contentref">Reviews</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#moviesetref">Movie Set</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#trailersref">Trailers and Clips</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Boas-vindas -->
+    <div class="welcome">
+        <h1>Welcome to The Office</h1>
+        <p>Your favorite workplace sitcom</p>
+        <div id="descriptionref"></div>     
+    </div>
+    <!-- Seção principal com informações sobre "The Office" -->    
+    <section class="main-content">
+        <!-- Div para a descrição da série -->
+        <div id="description">
+            <h2>About The Office</h2>
+            <p>
+                "The Office" is a hilarious sitcom that captures the everyday lives of the employees at the Dunder Mifflin paper company. 
+                Follow the antics of Michael Scott, Jim Halpert, Pam Beesly, and the rest of the gang as they navigate the quirky world of office politics.
+            </p>
+            <div id="charactersref"></div>
+        </div>
+
+        <!-- Div para a seção de personagens da série -->
+        <div id="characters">
+            <h2>Characters</h2>
+            <!-- Div para um personagem específico -->
+            <div class="character container row mx-auto g-4">
+                <!-- Div para cartão de informações do personagem -->
+                <div class="col-12 col-md-6 col-xxl-3">
+                    <div class="character-card">
+                        <img src="images/michael_scott.jpg" alt="Michael Scott">
+                        <!-- Div para o nome do personagem e função -->
+                        <div class="character-card-name">
+                            <h3>Michael Scott</h3>
+                            <p>The World's Best Boss</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Repetem-se divs semelhantes para outros personagens -->
+                <div class="col-12 col-md-6 col-xxl-3">
+                    <div class="character-card">
+                        <img src="images/jim_halpert.jpg" alt="Jim Halpert">
+                        <div class="character-card-name">
+                            <h3>Jim Halpert</h3>
+                            <p>The Prankster</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-xxl-3">
+                    <div class="character-card">
+                        <img src="images/pam_halpert.jpg" alt="Pam Beesly">
+                        <div class="character-card-name">
+                            <h3>Pam Beesly</h3>
+                            <p>The Receptionist</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-xxl-3">
+                    <div class="character-card">
+                        <img src="images/dwight.jpeg" alt="Dwight Schrute">
+                        <div class="character-card-name">
+                            <h3>Dwight Schrute</h3>
+                            <p>Assistant to the Regional Manager</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-xxl-3">
+                    <div class="character-card">
+                        <img src="images/ryan.jpg" alt="Ryan Howard">
+                        <div class="character-card-name">
+                            <h3>Ryan Howard</h3>
+                            <p>The Temp Turned Corporate Guy</p>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col-12 col-md-6 col-xxl-3">
+                    <div class="character-card">
+                        <img src="images/kevin.jpg" alt="Kevin Malone">
+                        <div class="character-card-name">
+                            <h3>Kevin Malone</h3>
+                            <p>The Master of Chili</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-xxl-3">
+                    <div class="character-card">
+                        <img src="images/angela.jpg" alt="Angela Martin">
+                        <div class="character-card-name">
+                            <h3>Angela Martin</h3>
+                            <p>The Cat Lover</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-xxl-3">
+                    <div class="character-card">
+                        <img src="images/andy.png" alt="Andy Bernard">
+                        <div class="character-card-name">
+                            <h3>Andy Bernard</h3>
+                            <p>The Nard Dog</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="review-contentref"></div>
+        </div>
+
+        <!-- Div para a seção de avaliações da série -->
+        <div id="review-content">
+            <h2>Reviews</h2>
+            <!-- Div para uma avaliação específica -->
+            <div class="review container row mx-auto g-4">
+                <!-- Div para o cartão de avaliação -->
+                <div class="col-12 col-md-6 col-xxl-4">
+                    <div class="review-card">
+                        <img src="images/john.jpg" alt="John Doe">
+                        <h3>John Doe</h3>
+                        <h4>Director</h4>
+                        <!-- Div para informações do avaliador -->
+                        <div class="d-flex justify-content-center align-items-end">
+                            <img src="/images/aspas.png" alt="aspas">
+                            <div class="long-hr"><hr></div>
+                        </div>
+                        <!-- Comentários do avaliador-->
+                        <p>"The Office" is a comedy masterpiece! I can't stop laughing at every episode. Highly recommended!</p>
+                    </div>
+                </div>
+                <!-- Repetem-se divs semelhantes para outras avaliações -->
+                <div class="col-12 col-md-6 col-xxl-4">
+                    <div class="review-card">
+                        <img src="images/frank.jpg" alt="Frank Smith">
+                        <h3>Frank Smith</h3>
+                        <h4>Director</h4>
+                        <div class="d-flex justify-content-center align-items-end">
+                            <img src="/images/aspas.png" alt="aspas">
+                            <div class="long-hr"><hr></div>
+                        </div>
+                        <p>Honestly, watching 'The Office' was one of the best decisions I've made. The show is a true comedy treasure.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-xxl-4">
+                    <div class="review-card">
+                        <img src="images/sofia.jpg" alt="Sofia Coppola">
+                        <h3>Sofia Coppola</h3>
+                        <h4>Director</h4>
+                        <div class="d-flex justify-content-center align-items-end">
+                            <img src="/images/aspas.png" alt="aspas">
+                            <div class="long-hr"><hr></div>
+                        </div>
+                        <p>This show perfectly captures the awkwardness of office life. The characters are so relatable, and the humor is spot on.</p>
+                    </div>
+                </div>
+            </div>
+            <div id="moviesetref"></div>  
+        </div>
+
+        <!-- Movie Set -->
+        <div id="movieset">
+            <h2>Movie Set</h2>
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="images/movieset1.webp" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/movieset2.webp" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/movieset3.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/movieset4.webp" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/movieset5.webp" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <div id="trailersref"></div>
+        </div>
+
+        <!-- Div para a seção de trailers e clipes da série -->
+        <div id="trailers">
+            <h2>Trailers and Clips</h2>
+            <div class="container row mx-auto g-4">
+                <!-- Div para um vídeo incorporado -->
+                    <div class="col-12 col-md-12 col-xxl-6">
+                        <div class="video">
+                            <iframe src="https://www.youtube.com/embed/tNcDHWpselE" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-12 col-xxl-6">
+                        <div class="video">
+                            <iframe src="https://www.youtube.com/embed/jaXoWVZN2lc" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-12 col-xxl-6">
+                        <div class="video">
+                            <iframe src="https://www.youtube.com/embed/-tib2kNv0-k?si=Jv8M-rz-wAmaM4b_" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-12 col-xxl-6">
+                        <div class="video">
+                            <iframe src="https://www.youtube.com/embed/PtYBp10h2O0?si=v55250gMsxDKCcvB" allowfullscreen></iframe>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé da página -->
+    <footer>
+        <p>&copy; 2023 Kayque Moraes Dias</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

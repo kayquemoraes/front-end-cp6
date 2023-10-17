@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4 {
+    font-weight: bold;
+    margin: 0;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+p {
+    margin: 0;
+}
+
+/* Apply a background color and style to the body */
+body {
+    background-color: #f4f4f4;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Style the header */
+.welcome {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 80px 20px 20px 20px;
+}
+
+h2{
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Style the main content section with flexbox */
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 60px;
+    padding: 30px 12% ;
+    color: #464646;
+}
+
+/* Style the description section */
+#description {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    border: 5px solid #ececec;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#description h2{
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.character {
+    padding: 0;
+}
+
+/* Style individual character cards */
+.character-card {
+    background-color: #fff;
+    border: 5px solid #ececec;
+    border-radius: 5px;
+    padding: 40px 10px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1.33%;
+}
+
+.character-card img {
+    width: 80%;
+    border-radius: 100%;
+    border: 5px solid #ddd
+}
+
+.character-card-name{
+    margin-top: 15px;
+}
+
+.character h3{
+    font-size: 1.2em;
+}
+
+.character p{
+    margin-top: 5px;
+    font-size: 0.8em;
+}
+
+#review-content {
+    padding: 0 8%;
+}
+
+/* Style the reviews section */ 
+.review-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 95%;
+    background-color: #fff;
+    padding: 15px 30px 30px 30px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.review-card > img{
+    margin-bottom: 20px;
+    width: 20vh;
+    border-radius: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.review-card h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.review-card h4{
+    color: #0066d2;
+}
+
+.review-card > p{
+    margin-top: 20px;
+}
+
+.review-card div img{
+    width: 5%;
+}
+
+.long-hr{
+    color: transparent;
+    border-bottom: 3px dashed #303030; /* Defina a aparência da linha conforme necessário */
+    width: 100%; /* Largura em relação ao elemento pai */
+    margin-bottom: 3px;
+    margin-left: 3px;
+}
+
+#movieset img {
+    height: 85vh;
+}
+
+/* Style the trailers and clips section */
+.video {
+    border: 5px solid #ececec;
+}
+
+.video iframe {
+    width: 100%;
+    height: 43vh;
+}
+
+/* Style the footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+}
